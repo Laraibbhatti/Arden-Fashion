@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - ARDEN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="checkout">
+    <section id="header">
+        <div class="logo-container"><a href="index.html"><img src="img/logo.png" class="logo" alt="ARDEN"></a></div>
+        <div class="toggle"><i class="fas fa-bars"></i></div>
+        <div class="search-bar"><input type="text" placeholder="Search products..."></div>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-plus"></i><span id="cart-count" class="cart-count">0</span></a></li>
+                <li><a class="active" href="checkout.html">Checkout</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h1>Checkout</h1>
+    </section>
+    <section class="section-p1" id="checkout-section">
+        <h2>Checkout</h2>
+        <div class="order-card" id="order-summary"></div>
+        <form id="checkout-form">
+            <h3>Shipping Information</h3>
+            <input type="text" id="ship-name" placeholder="Full Name" required>
+            <input type="text" id="ship-address" placeholder="Address" required>
+            <input type="text" id="ship-city" placeholder="City" required>
+            <input type="text" id="ship-zip" placeholder="ZIP / Postal Code" required>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+      <div class="footer-col">
+        <h4>About ARDEN</h4>
+        <p>Your one-stop online shop for premium apparel and accessories. We deliver quality and convenience to your doorstep.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 ARDEN. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
