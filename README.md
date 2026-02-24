@@ -1,54 +1,115 @@
-# Ecommerce Website
+ARDEN – Men’s Fashion E-commerce Website
 
-This is a basic static ecommerce website built with HTML, CSS and JavaScript. It includes:
+A modern, stylish ecommerce website for men’s fashion, built with HTML, CSS, and JavaScript. Features a clean UI, dynamic product display, and a fully functional shopping cart.
 
-- **Home page** with featured products and a hero section.
-- **Shop page** displaying all available products dynamically generated from a JS data array.
-- **Product detail pages** with full item information and add-to-cart button.
-- **Cart page** with add/remove functionality, quantity updates, and total calculation, persisted using `localStorage`.
-- **Checkout page** summarizing the order and collecting shipping information.
-- **Responsive navigation** with a mobile menu toggle.
-- **Footer** on every page with company info, links, and social icons.
-- **Blog section** with sample posts and more realistic content.
-- **About page** outlining company mission and team.
-- **Contact page** with contact details and an enhanced form.
-- **Toast notifications** when items are added to the cart.
-- **Contact form** with a simple submission handler.
+Table of Contents
 
-## Getting Started
+Features
 
-1. Open `index.html` in your web browser. No server is required since all pages are static, but you can also serve the folder with a simple HTTP server (e.g. `python -m http.server` or VS Code Live Server) to avoid any file‑protocol issues.
-2. Click the **Shop** button to browse products, add items to your cart, and view your cart contents.
-3. The cart is saved to browser storage, so it persists across page reloads.
-4. Navigate to other pages using the header links; the active page is highlighted automatically.
+Pages
 
-## Extending
+Getting Started
 
-- Products are defined in `script.js` in the `products` array; feel free to modify or add new entries. Each product links to a detail page (`product.html?id=#`).
-- Shopping cart data persists to `localStorage`; you can view the cart on `cart.html` and proceed to checkout on `checkout.html`.
-- Styles are in `style.css`; there are media queries for basic responsiveness and mobile navigation.
-- To integrate a backend or API, replace the static data rendering logic in `script.js` with AJAX/fetch calls, and adapt checkout to send order information to a server.
+Tech Stack
 
-Enjoy!
+UI & Brand Vibe
 
-The brand name throughout the UI has been changed to **ARDEN**. Random map iframes now appear on the contact and about pages, showing a different location each time you load the page.
+Future Enhancements
 
----
+License
 
-### UI & Layout
-The design has been enhanced with:
+Features
 
-- Responsive grid layout on the shop page and hover effects for products.
-- Hero overlay and improved typography for readability.
-- Consistent section backgrounds and spacing, plus a centered container.
-- Modern button styles and smooth transitions.
-- Search bar in the header for filtering products live.
-- A professional footer with columns and social links.
-- Improved cart and detail page styling.
-- Featured products section now shows eight items with two additional entries, and product thumbnails display in full color instead of grayscale.
-- Logo is contained within a circular background for a refined, brand‑friendly appearance.
-- Product entries now include colour swatches displayed on each card.
-- Two new product images and the about hero image are fetched from live image services (picsum/unsplash) instead of placeholders; the site’s hero backgrounds also pull from Unsplash.
-- Random map iframes appear on contact and about pages, auto-generating a location each load.
+Dynamic shop page with product listing generated from JS data array.
 
-Feel free to tweak colors, spacing or fonts to match your brand.
+Product detail pages with full info and add-to-cart functionality.
+
+Shopping cart with add/remove items, quantity updates, and total calculation. Cart persists using localStorage.
+
+Checkout page with order summary and shipping info.
+
+Responsive navigation and mobile-friendly menu toggle.
+
+Footer with company info, links, and social icons.
+
+Blog section with sample posts.
+
+Contact page with enhanced form.
+
+Toast notifications when items are added to the cart.
+
+Pages
+
+Home – Hero section and featured products.
+
+Shop – All products displayed with hover effects and color swatches.
+
+Product Details – Individual item info and add-to-cart button.
+
+Cart – View and manage your selected items.
+
+Checkout – Complete order summary and form.
+
+About – Company mission, team.
+
+Contact – Contact form.
+
+Blog – Sample posts and layout previews.
+
+Getting Started
+
+Clone or download the repository.
+
+Open index.html in your browser (no server required).
+
+Optional: Use a local server for best experience:
+
+python -m http.server
+
+or VS Code Live Server.
+
+Browse products via Shop, add to cart, and proceed to checkout.
+
+Cart persists across page reloads using browser storage.
+
+Navigate between pages using the header; the active page is highlighted automatically.
+
+Tech Stack
+
+HTML5 & CSS3
+
+JavaScript (Vanilla)
+
+LocalStorage for cart persistence
+
+UI & Brand Vibe
+
+Circular ARDEN logo for a modern, premium feel.
+
+Responsive grid layout with hover effects for products.
+
+Hero section with clean typography and overlay.
+
+Color swatches on product cards for realistic selection.
+
+Professional footer with multiple columns and social links.
+
+Smooth transitions and modern button styles.
+
+Mobile-friendly navigation and responsive design throughout.
+
+Future Enhancements
+
+Integrate a backend API for products and checkout.
+
+Add user authentication and profiles.
+
+Improve search and filtering capabilities.
+
+Enhance mobile UX with animations and better touch interactions.
+
+Add wishlist and recommendations.
+
+License
+
+MIT License © 2026 ARDEN
